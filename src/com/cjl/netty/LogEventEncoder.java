@@ -3,7 +3,6 @@ package com.cjl.netty;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToMessageEncoder;
-import org.apache.log4j.pattern.LogEvent;
 
 
 import java.net.InetSocketAddress;

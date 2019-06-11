@@ -2,12 +2,10 @@ package com.cjl.netty;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioDatagramChannel;
-import org.apache.log4j.pattern.LogEvent;
 
 
 import java.io.File;
@@ -48,6 +46,9 @@ public class LogEventBroadcaster {
                 }
                 pointer = raf.getFilePointer();
                 raf.close();
+
+
+
             }
             try {
                 Thread.sleep(1000);

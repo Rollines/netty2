@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c826765-9bde-4a6e-b602-8400f11180df" name="Default Changelist" comment="" />
+    <list default="true" id="4c826765-9bde-4a6e-b602-8400f11180df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/bio/TimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/bio/TimeServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/nio/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/nio/TimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/time/TimeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cjl/netty/time/TimeClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cjl/netty/LogEventBroadcaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cjl/netty/LogEventBroadcaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cjl/netty/LogEventEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cjl/netty/LogEventEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cjl/netty/nio/NettyNioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cjl/netty/nio/NettyNioServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cjl/netty/protocol/WebSocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cjl/netty/protocol/WebSocketServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cjl/netty/websocket/HttpRequestHandler.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,25 +38,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/nio/NettyNioServer.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1700">
+              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/websocket/HttpRequestHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="1350">
+              <caret line="63" column="5" selection-start-line="20" selection-start-column="25" selection-end-line="63" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,15 +65,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/LogEventBroadcaster.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            <state relative-caret-position="531">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1880#1881#0" expanded="true" />
-                <element signature="e#1922#1923#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/LogEventBroadcaster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -53,10 +88,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/LogEventEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#454#455#0" expanded="true" />
                 <element signature="e#504#505#0" expanded="true" />
               </folding>
@@ -65,10 +99,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/nio/NIOClient.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2425">
-              <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
+            <state relative-caret-position="575">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,10 +111,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/aio/AsyncTimeServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            <state relative-caret-position="259">
+              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#908#1181#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="753">
+              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,22 +146,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/aio/AcceptCompletionHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+            <state relative-caret-position="900">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/aio/ReadCompletionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -122,12 +170,20 @@
     <findStrings>
       <find>PingWebSocketFrame</find>
       <find>USER_EXIST</find>
+      <find>logger</find>
+      <find>LineBasedFrameDecoder</find>
+      <find>TimeServer</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/com/cjl/netty/TCP</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/aio/AcceptCompletionHandler.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/aio/ReadCompletionHandler.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/aio/AsyncTimeServerHandler.java" />
@@ -135,13 +191,10 @@
         <option value="$PROJECT_DIR$/src/com/cjl/netty/aio/AsyncTimeClientHandler.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/aio/TimeServer.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/protocol/WebSocketServer.java" />
-        <option value="$PROJECT_DIR$/src/com/cjl/netty/protocol/WebSocketServerHandler.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoServer.java" />
-        <option value="$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoServerHandler.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoClient.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/plainnio/PlainNioServer.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/ioi/NettyOioServer.java" />
-        <option value="$PROJECT_DIR$/src/com/cjl/netty/nio/NettyNioServer.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/data/algorithms/DataAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/nio/NIOServer.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/nio/NIOClient.java" />
@@ -149,26 +202,44 @@
         <option value="$PROJECT_DIR$/src/com/cjl/netty/HttpRequestHandler.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/websocket/HttpRequestHandler.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/upd.java" />
-        <option value="$PROJECT_DIR$/src/com/cjl/netty/LogEventEncoder.java" />
-        <option value="$PROJECT_DIR$/src/com/cjl/netty/LogEventBroadcaster.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/droplr/RequestControllerImpl.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/droplr/IdleStateAwareChannelUpstreamHandler.java" />
         <option value="$PROJECT_DIR$/src/com/cjl/netty/droplr/RequestController.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/bio/TimeServer.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/bio/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/nio/NettyNioServer.java" />
+        <option value="$PROJECT_DIR$/src/test/com/doctor/netty/TimeServer.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/nio/TimeClient.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/protocol/WebSocketServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/time/TimeClient.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/TCP/timeServer.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeServer.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeClient.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/time/TimeClientHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/LogEventBroadcaster.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/LogEventEncoder.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoServer.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="978" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="942" />
-    <option name="height" value="1177" />
+    <option name="width" value="960" />
+    <option name="height" value="1131" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,13 +256,61 @@
               <item name="nettybook2" type="b2602c69:ProjectViewProjectNode" />
               <item name="nettybook2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettybook2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettybook2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettybook2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettybook2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjl" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nettybook2" type="b2602c69:ProjectViewProjectNode" />
               <item name="nettybook2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjl" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="delimiterBasedFrame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettybook2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettybook2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cjl" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="TCP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettybook2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettybook2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettybook2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettybook2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettybook2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettybook2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="doctor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nettybook2" type="b2602c69:ProjectViewProjectNode" />
@@ -201,26 +320,31 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546411431787" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553646877518" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.cjl.netty.websocket" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cjl.netty.delimiterBasedFrame" />
+      <recent name="com.cjl.netty.time" />
+      <recent name="com.cjl.netty.bio" />
       <recent name="com.cjl.netty.droplr" />
       <recent name="com.cjl.netty" />
-      <recent name="com.cjl.netty.echoserver" />
-      <recent name="com.cjl.netty.protocol" />
-      <recent name="com.cjl.netty.aio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,26 +359,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NIOClient">
-    <configuration name="DataAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.data.algorithms.DataAlgorithms" />
-      <module name="nettybook2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cjl.netty.data.algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EchoClient">
     <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.echoserver.EchoClient" />
+      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.delimiterBasedFrame.EchoClient" />
       <module name="nettybook2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cjl.netty.echoserver.*" />
+          <option name="PATTERN" value="com.cjl.netty.delimiterBasedFrame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,11 +374,11 @@
       </method>
     </configuration>
     <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.echoserver.EchoServer" />
+      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.delimiterBasedFrame.EchoServer" />
       <module name="nettybook2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cjl.netty.echoserver.*" />
+          <option name="PATTERN" value="com.cjl.netty.delimiterBasedFrame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,8 +386,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.nio.NIOClient" />
+    <configuration name="TimeClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.TCP.TimeClient" />
+      <module name="nettybook2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjl.netty.TCP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.nio.TimeClient" />
       <module name="nettybook2" />
       <extension name="coverage">
         <pattern>
@@ -288,8 +412,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.nio.NIOServer" />
+    <configuration name="TimeServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.TCP.TimeServer" />
+      <module name="nettybook2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cjl.netty.TCP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cjl.netty.nio.TimeServer" />
       <module name="nettybook2" />
       <extension name="coverage">
         <pattern>
@@ -303,11 +440,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NIOClient" />
-        <item itemvalue="Application.NIOServer" />
-        <item itemvalue="Application.DataAlgorithms" />
-        <item itemvalue="Application.EchoServer" />
         <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.TimeServer (1)" />
+        <item itemvalue="Application.TimeClient (1)" />
+        <item itemvalue="Application.TimeClient" />
       </list>
     </recent_temporary>
   </component>
@@ -328,17 +465,29 @@
       <workItem from="1546049851917" duration="2743000" />
       <workItem from="1546390955422" duration="778000" />
       <workItem from="1546400526762" duration="1254000" />
+      <workItem from="1546476460718" duration="1166000" />
+      <workItem from="1546481858016" duration="41000" />
+      <workItem from="1547026315573" duration="178000" />
+      <workItem from="1552977360606" duration="816000" />
+      <workItem from="1552989957744" duration="563000" />
+      <workItem from="1553040096157" duration="17000" />
+      <workItem from="1553485357143" duration="1115000" />
+      <workItem from="1553559523575" duration="2251000" />
+      <workItem from="1559726359477" duration="2331000" />
+      <workItem from="1559781410241" duration="7624000" />
+      <workItem from="1560126292622" duration="13232000" />
+      <workItem from="1560211353725" duration="1885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27297000" />
+    <option name="totallyTimeSpent" value="58516000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="978" y="23" width="942" height="1177" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1131" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27394208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -346,20 +495,21 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32924527" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32924527" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="JProfiler" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3639053" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32741618" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -375,34 +525,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/protocol/WebSocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/protocol/WebSocketServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/aio/TimeServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/aio/TimeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -417,70 +544,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/plainnio.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/protocol/WebSocketServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/data/algorithms/DataAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/nio/NIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="144" column="16" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/plainnio/PlainNioServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -494,33 +561,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/nio/NettyNioServer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/droplr/RequestControllerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/droplr/IdleStateAwareChannelUpstreamHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/droplr/RequestController.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/websocket/HttpRequestHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1.jar!/io/netty/channel/EventLoopGroup.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/nio/NIOClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1-sources.jar!/io/netty/channel/EventLoopGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2425">
-          <caret line="108" column="18" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/aio/TimeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -536,14 +604,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/aio/AcceptCompletionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/plainnio/PlainNioServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/aio/ReadCompletionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
@@ -551,50 +627,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/LogEventEncoder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/protocol/WebSocketServerHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/websocket/HttpRequestHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoServerHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/echoserver/EchoClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/nio/NIOClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="200">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/nio/NIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3425">
+          <caret line="144" column="16" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/time/TimeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#1036#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="27" column="75" lean-forward="true" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/nio/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1915">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/nio/TimeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2915">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/bio/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="28" column="66" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/bio/TimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/nio/NettyNioServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/time/TimeClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="63" column="5" selection-start-line="20" selection-start-column="25" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/TCP/TimeClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="404" column="26" selection-start-line="404" selection-start-column="26" selection-end-line="404" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/LogEventBroadcaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/LogEventEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
             <element signature="e#454#455#0" expanded="true" />
             <element signature="e#504#505#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/droplr/RequestControllerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/droplr/IdleStateAwareChannelUpstreamHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/droplr/RequestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="575">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/LogEventBroadcaster.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        <state relative-caret-position="259">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1880#1881#0" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#908#1181#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cjl/netty/delimiterBasedFrame/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -602,9 +838,78 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>nettybook2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
