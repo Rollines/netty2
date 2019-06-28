@@ -53,21 +53,6 @@
       <artifactId>netty-all</artifactId>
       <version>5.0.0.Alpha1</version>
     </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-slf4j-impl</artifactId>
-      <version>2.10.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-api</artifactId>
-      <version>2.11.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-core</artifactId>
-      <version>2.10.0</version>
-    </dependency>
     <!-- https://mvnrepository.com/artifact/org.msgpack/msgpack -->
     <dependency>
       <groupId>org.msgpack</groupId>
@@ -94,5 +79,17 @@
           <artifactId>httpcore</artifactId>
           <version>4.4.10</version>
       </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-nop</artifactId>
+      <version>1.7.24</version>
+    </dependency>
+
+    <!-- SOFARPC -->
+    <dependency>
+      <groupId>com.alipay.sofa</groupId>
+      <artifactId>sofa-rpc-all</artifactId>
+      <version>5.6.0</version>
+    </dependency>
   </dependencies>
 </project>
